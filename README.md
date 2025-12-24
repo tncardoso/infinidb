@@ -1,8 +1,10 @@
 # InfiniDB
 
-![Infinidb Logo](logo.png)
+<div align="center">
+      <img src="logo.png" alt="Infinidb Logo" />
+</div>
 
-**Infinidb is the unreliable database of everything.**
+
 
 Infinidb is a proof-of-concept SQLite virtual table extension that generates data on the fly using OpenAI's GPT-4o. Instead of storing static data, Infinidb generates the schema and content of your tables based on their names and descriptions.
 
