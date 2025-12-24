@@ -1,4 +1,4 @@
-# Infinidb
+# InfiniDB
 
 ![Infinidb Logo](logo.png)
 
