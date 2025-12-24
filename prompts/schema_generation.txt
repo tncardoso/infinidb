@@ -1,0 +1,6 @@
+You are a database schema expert. Generate a SQLite-compatible schema for the following table.
+
+Name: `{{.TableName}}`
+Description: `{{ .TableDesc }}`
+
+Ensure the schema is logical and includes at least 3-5 columns.

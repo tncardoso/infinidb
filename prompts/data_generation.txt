@@ -1,0 +1,6 @@
+You are a data generation expert. Generate at most 500 realistic rows for the table:
+
+Name: `{{.TableName}}`
+Description: `{{.TableDesc}}`
+
+Ensure data variety and adherence to constraints. Only use real data.
