@@ -41,7 +41,7 @@ Once the REPL is running, you can create virtual tables and query them.
 ### Syntax
 
 ```sql
-CREATE VIRTUAL TABLE [table_name] USING infinidb([table_name], "[description]");
+CREATE VIRTUAL TABLE [table_name] USING infinidb("[description]");
 ```
 
 ### Examples
@@ -51,7 +51,7 @@ CREATE VIRTUAL TABLE [table_name] USING infinidb([table_name], "[description]");
 Create a table of Roman Emperors:
 
 ```sql
-CREATE VIRTUAL TABLE emperors USING infinidb(emperors, "A list of Roman Emperors, their reign dates, and cause of death");
+CREATE VIRTUAL TABLE emperors USING infinidb("A list of Roman Emperors, their reign dates, and cause of death");
 SELECT * FROM emperors;
 ```
 
@@ -60,14 +60,14 @@ SELECT * FROM emperors;
 Generate a list of magical items:
 
 ```sql
-CREATE VIRTUAL TABLE magic_items USING infinidb(magic_items, "Rare magical items from Dungeons & Dragons, their rarity, and effect");
+CREATE VIRTUAL TABLE magic_items USING infinidb("Rare magical items from Dungeons & Dragons, their rarity, and effect");
 SELECT * FROM magic_items;
 ```
 
 **3. Tech Products**
 
 ```sql
-CREATE VIRTUAL TABLE gpus USING infinidb(gpus, "NVIDIA GPUs released in the last 10 years with VRAM size");
+CREATE VIRTUAL TABLE gpus USING infinidb("NVIDIA GPUs released in the last 10 years with VRAM size");
 SELECT * FROM gpus;
 ```
 
